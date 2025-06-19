@@ -73,7 +73,7 @@ export const YOUTUBE_SPECIFIC_VIDEO_API = "https://youtube.googleapis.com/youtub
 
 export const YOUTUBE_SPECIFIC_CHANNEL_API = "https://www.googleapis.com/youtube/v3/channels?part=snippet&fields=items%2Fsnippet%2Fthumbnails&id=";
 
-export const YOUTUBE_AUTOSUGGEST_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+export const YOUTUBE_AUTOSUGGEST_SEARCH_API = "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 // https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=[SEARCH_QUERY]&key=["YOUR_API_KEY] - From Youtube_Data_V3 API (not autosuggest api, just search video API)
 // https://clients1.google.com/complete/search?client=youtube&gs_ri=youtube&ds=yt&q=[SEARCH_QUERY] - unable to parse response of this API, but gives response 
 
