@@ -31,7 +31,10 @@ const appRouter = createBrowserRouter([
       // }
     ]
   }
-])
+],
+{
+  basename: "/youtube-app"
+})
 
 function App() {
   
